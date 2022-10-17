@@ -5,4 +5,9 @@ public class VideoGameCoach implements Coach{
     public String getDailyWorkout() {
         return "I'm a best coach when i play with us players uwu";
     }
+
+    @Override
+    public String getDailyForutne() {
+        return null;
+    }
 }

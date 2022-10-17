@@ -11,9 +11,17 @@
 
     <bean id="myCoach"
           class="first.BaseballCoach">
+        <constructor-arg ref="myFortune"></constructor-arg>
     </bean>
 
-    <bean id="myVideoGameCoach" class="first.VideoGameCoach"></bean>
+    <bean id="myFortune" class="first.HappyFortuneService"></bean>
+
+    <bean id="myVideoGameCoach" class="first.VideoGameCoach" ></bean>
+    <bean id="myTrackCoach" class="first.TrackCoach" >
+        <constructor-arg ref="myFortune"></constructor-arg>
+    </bean>
+
+
 
 
 </beans>

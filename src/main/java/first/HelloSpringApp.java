@@ -11,9 +11,13 @@ public class HelloSpringApp {
 
         Coach theCoach = context.getBean("myCoach", Coach.class);
         Coach theVideoGameCoach = context.getBean("myVideoGameCoach", Coach.class);
+        Coach theTrackCoach = context.getBean("myTrackCoach", Coach.class);
 
-        System.out.println(theCoach.getDailyWorkout());
-        System.out.println(theVideoGameCoach.getDailyWorkout());
+//        System.out.println(theCoach.getDailyWorkout());
+//        System.out.println(theVideoGameCoach.getDailyWorkout());
+        System.out.println(theCoach.getDailyForutne());
+        System.out.println(theTrackCoach.getDailyForutne());
+
 
         context.close();
     }
