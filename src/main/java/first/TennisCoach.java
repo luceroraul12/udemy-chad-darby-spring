@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach {
 
     @Autowired
-    @Qualifier("myFortune")
+    @Qualifier("randomFortuneService")
     FortuneService fortuneService;
     @Override
     public String getDailyWorkout() {
