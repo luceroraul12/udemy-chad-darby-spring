@@ -1,0 +1,4 @@
+first.DatabaseFortuneService=org.springframework.stereotype.Component
+first.RESTFortunService=org.springframework.stereotype.Component
+first.RandomService=org.springframework.stereotype.Component
+first.TennisCoach=org.springframework.stereotype.Component
