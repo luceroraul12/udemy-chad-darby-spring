@@ -19,4 +19,14 @@ public class CricketCoach implements Coach{
     public String getDailyForutne() {
         return "By CricketCoach: "+fortuneService.getFortune();
     }
+
+//    @Override
+    public void initMethod() {
+        System.out.println("init on Cricket coach");
+    }
+
+//    @Override
+    public void destroyMethod() {
+        System.out.println("destroy on Cricket coach");
+    }
 }

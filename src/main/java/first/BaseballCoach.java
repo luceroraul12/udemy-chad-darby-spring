@@ -18,4 +18,14 @@ public class BaseballCoach implements Coach{
 
         return fortuneService.getFortune();
     }
+
+//    @Override
+    public void initMethod() {
+
+    }
+
+//    @Override
+    public void destroyMethod() {
+
+    }
 }

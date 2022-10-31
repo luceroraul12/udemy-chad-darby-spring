@@ -10,4 +10,14 @@ public class VideoGameCoach implements Coach{
     public String getDailyForutne() {
         return null;
     }
+
+//    @Override
+    public void initMethod() {
+
+    }
+
+//    @Override
+    public void destroyMethod() {
+
+    }
 }

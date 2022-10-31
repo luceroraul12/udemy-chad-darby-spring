@@ -9,6 +9,8 @@
 
     <!-- Define your beans here -->
 
+    <context:component-scan base-package="first" />
+
     <bean id="myCoach"
           class="first.BaseballCoach">
         <constructor-arg ref="myFortune"></constructor-arg>
@@ -19,13 +21,13 @@
     <bean id="myVideoGameCoach" class="first.VideoGameCoach" ></bean>
 
     <bean id="myTrackCoach" class="first.TrackCoach" >
+
         <constructor-arg ref="myFortune"></constructor-arg>
     </bean>
 
     <bean id="myCricketCoach" class="first.CricketCoach">
         <property name="fortuneService" ref="myFortune"></property>
     </bean>
-
 
 
 
